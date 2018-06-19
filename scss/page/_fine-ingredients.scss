@@ -1,0 +1,31 @@
+.fine {
+    padding: 100px 0;
+    background: url(../images/banner2.png);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    color: #ffff;
+    &-child {
+        background: rgba(0, 0, 0, 0.67);
+        padding: 80px 70px;
+        &__heading {
+            font-family: $font-yeone;
+            font-size: 40px;
+        }
+        &__img {
+            padding-top: 15px;
+            padding-bottom: 30px;
+        }
+        &__description {
+            font-family: $font-lato;
+            font-size: 16px;
+            color: #cac8c6;
+        }
+        &__gallery {
+            padding: 42px 0 0 0;
+            img {
+                padding: 0 10px;
+            }
+        }
+    }
+}

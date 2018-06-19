@@ -1,0 +1,44 @@
+.book-food {
+    padding: 100px 0 52px 0;
+    background: url(../images/background.png);
+    background-image: url(../images/bg2.png);
+    &-spacing {
+        padding: 0 85px;
+    }
+    &__heading {
+        font-family: $font-yeone;
+        font-size: 36px;
+        color: $color_text;
+    }
+    &__img {
+        padding: 5px 0 20px 0;
+    }
+    &__description {
+        font-family: $font-lato;
+        color: #797979;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    &__form {
+        label {
+            color: $color_text;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+        input[type='text'] {
+            border-radius: 0;
+            font-style: italic;
+            color: #797979;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+    }
+    &__btn {
+        margin-top: 5px;
+        background: $color_text;
+        padding: 10px 40px;
+        border-radius: 0;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+}

@@ -1,0 +1,31 @@
+.review {
+    background: url(../images/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    padding: 100px 0;
+    &-child {
+        background: rgba(0, 0, 0, 0.67);
+        margin: 0px auto;
+        color: #dde0df;
+        padding: 80px 70px;
+    }
+    &__heading {
+        font-family: $font-yeone;
+        font-size: 36px;
+        color: #fff;
+    }
+    &__img {
+        padding: 20px 0 30px 0;
+    }
+    &__description {
+        font-family: font;
+        font-size: 25px;
+    }
+    &__sign {
+        font-size: 18px;
+        font-family: $font-lato;
+        padding-top: 40px;
+    }
+}

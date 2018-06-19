@@ -1,0 +1,104 @@
+.menu {
+    font-family: font;
+    font-size: 21px;
+    font-weight: bold;
+    background: transparent;
+    padding-top: 0;
+    &__menu {
+        height: 110px;
+        line-height: 110px;
+        li {
+            &:hover {
+                transition: 0.2s;
+                border-top: 3px solid #c9c6bb;
+            }
+            .nav-link {
+                padding: 0 15px !important;
+                color: #ffff !important;
+            }
+            .icon {
+                text-decoration: none;
+                padding-right: 15px !important;
+                color: #dab33e !important;
+            }
+        }
+        .dis_hover {
+            display: block;
+            padding-left: 15px;
+            &:hover {
+                border-top: none !important;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .menu {
+        background-color: #212529 !important;
+        .hamburger {
+            padding: 6px 20px;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 30px;
+        }
+        &__menu {
+            height: auto;
+            line-height: 60px;
+            li {
+                &:hover {
+                    border-top: none;
+                }
+                .nav-link {
+                    padding: 5px 0px !important;
+                    &:hover {
+                        color: #dab33e !important;
+                    }
+                }
+            }
+            .dis_hover {
+                padding-left: 0px;
+                &:hover {
+                    border-top: none !important;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    color: #fff;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    &__banner {
+        padding-top: 180px;
+        padding-bottom: 150px;
+    }
+    &__heading {
+        font-size: 80px;
+        font-family: $font-yeone;
+    }
+    &__img {
+        padding: 20px 0;
+    }
+    &__btn--left {
+        border: 1px solid black;
+        border-radius: 0px !important;
+        background: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        font-weight: 400 !important;
+        font-family: $font-lato;
+        padding: 16px 58px;
+        margin-right: 10px;
+        &:hover {
+            color: #dab33e;
+        }
+    }
+    &__btn--right {
+        @extend .header__btn--left;
+        border: 1px solid #e7e0bd;
+        background: rgba(255, 255, 255, 0.44);
+    }
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: font;
+    src: url('../fonts/GenBkBasR.ttf');
+    font-weight: bold;
+}
+$color_text:#dab33e;
+$font-lato:'Lato', sans-serif;
+$font-yeone:'Yeseva One', cursive;
+.nav-bg
+{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    background-color: #212529!important;
+    transition: 0.5s;
+}

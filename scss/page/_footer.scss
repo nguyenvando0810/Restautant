@@ -1,0 +1,19 @@
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    color: #f0f0f0;
+    font-size: 16px;
+    background: #191919;
+    padding: 50px 0px;
+    &__heading{
+        font-size: 21px;
+        font-family: $font-yeone;
+    }
+    &__img{
+        padding: 15px 0 20px 0;
+    }
+    &__description{
+       &--bold{
+           font-weight: 600;
+       }
+    }
+}

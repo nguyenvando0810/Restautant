@@ -1,0 +1,31 @@
+.order {
+    padding: 100px 0;
+    // height: 710px;
+    font-family: $font-yeone;
+    background: url(../images/background.png);
+    background-image: url(../images/bg2.png);
+    &__heading {
+        color: #dab33e;
+        font-size: 36px;
+    }
+    &__img {
+        padding: 15px 0 30px 0;
+    }
+    &__menu {
+        color: #dab33e;
+        font-size: 21px;
+        padding-bottom: 30px;
+    }
+    &__line {
+        width: 100%;
+        height: 1px;
+        background: #ded09e;
+        margin: 15px 0;
+    }
+    &__description {
+        color: #4c4c4c;
+        font-size: 17px;
+        font-family: $font-lato;
+        font-weight: 500;
+    }
+}
